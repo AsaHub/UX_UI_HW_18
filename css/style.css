@@ -1,0 +1,411 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin: 0;
+    padding-top: 10px;
+    width: 10%;
+}
+
+.logo img {
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+nav {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    margin: 0;
+    margin-top: 5px;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    width: 75%;
+    background-color: #262422;
+    color: white;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+    width: 20%;
+}
+
+nav li:hover {
+
+    box-shadow:inset 0px 0px 0px 2px #fff;;
+
+}
+
+.heroImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    padding: 25px;
+    justify-content: flex-start;
+
+}
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    position: absolute;
+    
+    
+}
+ 
+ 
+.portrait img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 90px;
+    }
+
+.content h1, h2, p {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.caseStudies {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 300px;
+    gap: 10px;
+    grid-template-areas: "CaseStudy1 CaseStudy2";
+}
+
+
+.caseStudy1 {
+    grid-template-areas: "CaseStudy1";
+    background-image: url("../images/RWDSPLASH.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5px;
+    position: relative;
+    
+}
+
+
+.caseStudy2 {
+    grid-template-areas: "CaseStudy2";
+    background-image: url("../images/RWDSPLASH.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5px;
+    position: relative;
+}
+
+.caseStudies button {
+
+    background-color: #ffff;
+    border-radius: 90px;
+    width: 50%;
+    padding: 8px;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 225px;   
+    font-size: 20px;
+
+}
+
+.caseStudies button:hover {
+
+color: white;
+   background-color: black;
+   box-shadow:inset 0px 0px 0px 2px #fff;;
+}
+
+
+.mySkills h1 {
+    text-align: center;
+}
+
+.flexContainer {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.skillsContent {
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    
+       
+}
+
+.skillsContent h3, p {
+    text-align: center;
+}
+
+.skillsContent img {
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+}
+
+.skillsList {
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+footer {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #262422;
+    color: white;
+    
+}
+
+footer ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+
+}
+footer li {
+    padding: 5px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin: 0;
+    padding-top: 10px;
+    width: 40%;
+}
+
+.logo img {
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+nav {
+    margin: 0;
+    display: none;
+    justify-content: center;
+}
+nav ul {
+    margin: 0;
+    margin-top: 5px;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    width: 75%;
+    background-color: #262422;
+    color: white;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+    width: 20%;
+}
+
+nav li:hover {
+
+    box-shadow:inset 0px 0px 0px 2px #fff;;
+
+}
+
+.heroImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 53rem;
+    padding: 25px;
+    justify-content: flex-start;
+
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    position: absolute;
+    
+    
+}
+ 
+ 
+.portrait img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 90px;
+    }
+
+.content h1, h2, p {
+    text-align: center;
+    margin: 10px;
+}
+
+.content p {
+
+    font-size: 16px;
+}
+
+.content h2 {
+
+    font-size: 20px;
+}
+
+
+.caseStudies {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 250px;
+    gap: 10px;
+    grid-template-areas: "CaseStudy1" 
+                         "CaseStudy2";
+}
+
+
+.caseStudy1 {
+    grid-template-areas: "CaseStudy1";
+    background-image: url("../images/RWDSPLASH.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5px;
+    position: relative;
+    
+}
+
+
+.caseStudy2 {
+    grid-template-areas: "CaseStudy2";
+    background-image: url("../images/RWDSPLASH.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5px;
+    position: relative;
+}
+
+.caseStudies button {
+
+    background-color: #ffff;
+    border-radius: 90px;
+    width: 75%;
+    padding: 8px;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 200px;   
+    font-size: 20px;
+
+}
+
+.mySkills h1 {
+    text-align: center;
+}
+
+.flexContainer {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skillsContent {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+       
+}
+
+.skillsContent h3, p {
+    text-align: center;
+}
+
+.skillsContent h3 {
+    font-size: 24px;
+}
+
+.skillsContent p {
+    font-size: 18px;
+}
+.skillsContent img {
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+}
+
+.skillsList {
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #262422;
+    color: white;
+    
+}
+
+footer ul {
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+
+}
+footer li {
+    padding: 0px;
+    margin-bottom: 10px;
+    
+  
+}
+
+footer p {
+    font-size: 20px;
+
+}
+}
